@@ -1,4 +1,4 @@
-import React {useState} from 'react';
+import React, { useState } from "react";
 const Selection=(props)=>{
   const [background,backroundSet]=useState({background:''})
   const updateSelectionStyle=(background)=>{
@@ -10,3 +10,4 @@ const Selection=(props)=>{
     <h2 className="subheading">Selection</h2>  
   </div>
 }
+export default Selection;
