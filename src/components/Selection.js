@@ -8,7 +8,7 @@ function Selection(props) {
   return (
     <div
       className="fix-box"
-      style={{ background }}
+      style={ background }
       onClick={() => props.applyColor(updateSelectionStyle)}
     >
       <h2 className="subheading">Selection</h2>
